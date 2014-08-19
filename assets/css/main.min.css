@@ -5873,6 +5873,11 @@ h4 {
   color: #fff;
   font-family: 'Avenir LT', helvetica, serif;
 }
+@media (max-width: 992px) {
+  .hero-btn {
+    margin: 20 auto 40px auto;
+  }
+}
 .hero-btn:hover {
   border-top: 2px solid #dc2d8d;
   border-bottom: 2px solid #d43131;
@@ -6131,16 +6136,12 @@ a:hover {
   top: 0px;
   left: 0px;
   min-width: 100%;
-  height: 640px;
+  height: auto;
+  max-height: 640px;
   width: auto;
   z-index: none;
   overflow: hidden;
-  margin-top: 40px;
-}
-@media (min-width: 768px) {
-  #videobcg {
-    height: 740px;
-  }
+  margin-top: 100px;
 }
 .alert-footer {
   width: 200px;
@@ -6243,9 +6244,17 @@ a:hover {
 .navbar {
   height: 100px;
 }
+@media (max-width: 992px) {
+  .navbar-brand img {
+    max-height: 24px;
+    margin-bottom: -20px;
+    margin-left: -20px;
+  }
+}
 @media (max-width: 768px) {
-  .navbar img {
-    padding-top: 14px;
+  .navbar-brand img {
+    margin-bottom: -42px !important;
+    margin-left: 0px;
   }
 }
 .navbar-nav {
@@ -6265,7 +6274,7 @@ a:hover {
 /***********************/
 #above-the-fold {
   text-align: center;
-  background: #f7f7f7;
+  background: #fff;
   padding-top: 40px;
 }
 #above-the-fold h1 {
@@ -6283,7 +6292,10 @@ a:hover {
 #above-the-fold .jack-cols {
   padding-top: 10px;
 }
-@media (min-width: 768px) {
+#above-the-fold img {
+  height: 120px;
+}
+@media (min-width: 992px) {
   #above-the-fold .jack-cols {
     padding-top: 62px;
   }
@@ -6306,6 +6318,11 @@ a:hover {
   }
   #above-the-fold p {
     margin-bottom: 10px;
+  }
+}
+@media (min-width: 768px) {
+  #above-the-fold img {
+    height: auto;
   }
 }
 .dark {

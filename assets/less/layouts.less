@@ -44,11 +44,19 @@
 
 .navbar {
 	height: 100px;
+}
 
+.navbar-brand {
 	img {
-	@media (max-width: @screen-sm-min) {
-		padding-top: 14px;
-	}
+		@media (max-width: @screen-md-min) {
+			max-height: 24px;
+			margin-bottom: -20px;
+			margin-left: -20px;
+		}
+		@media (max-width: @screen-sm-min) {
+			margin-bottom: -42px !important;
+			margin-left: 0px;
+		}
 	}
 }
 
@@ -72,7 +80,7 @@
 
 #above-the-fold {
 	text-align: center;
-	background: #f7f7f7;
+	background: #fff;
 	padding-top: 40px;
 
 	h1 {
@@ -92,8 +100,12 @@
 	.jack-cols {
 		padding-top: 10px;
 	}
+	
+	img {
+		height: 120px;
+	}
 
-	@media (min-width: @screen-sm-min) {
+	@media (min-width: @screen-md-min) {
 		.jack-cols {
 			padding-top: 62px;
 		}
@@ -121,8 +133,13 @@
 			
 		p {
 			margin-bottom: 10px;
+		}		
+	}
+	
+	@media (min-width: @screen-sm-min) {
+		img {
+			height: auto;
 		}
-		
 	}
 }
 
