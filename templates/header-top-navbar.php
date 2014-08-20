@@ -37,7 +37,7 @@
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
         </div>
           <div class="col-sm-12 jack-cols">
-			  <button type="button" class="btn btn-default hero-btn">Back on Kickstarter</button>
+			  			  <button href="#" type="button" type="button" class="btn btn-default hero-btn" data-toggle="modal" data-target="#myModal">Back on Kickstarter</button>
               <!--<a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/security-hero.png" alt="the-athlete" />
               <h4>Security</h4></a>
           </div>
