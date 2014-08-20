@@ -38,24 +38,7 @@
 
     </div> <!-- SUPREME -->
 
-<script language="JavaScript">
-  <!--
-    function _submit_form(frm){
-      var email = frm.email.value;
-      var valid_email = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
-      
-      if( valid_email.test( email ) ){
-        document.getElementById('before').style.display = 'none';
-        document.getElementById('after').style.display = 'block';
-        return true;
-      } else {
-        alert("Invalid email address");
-      }
-      return false;
-    }
-//-->
-</script>
-
+<!-- pop-up modal -->
 <script type="text/javascript"
         src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js"></script>
   <script type="text/javascript">
@@ -68,7 +51,7 @@
         setTimeout(function() {
           showPopup();
           jQuery.cookie('foreverjobless', '1', { expires: 7 });
-        }, 360000);
+        }, 36);
       }
     }
 
@@ -82,34 +65,26 @@
    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <!--<button type="button" class="close" style="margin-right: 10px;margin-top: 5px;" data-dismiss="modal" aria-hidden="true">&times;</button>-->
-          <div class="modal-body">
+        	<center><h3>We haven't launched yet!<br>Be the first to know when we launch.</h3></center>
+          	<div class="modal-body">
+          	<center><a href="//fast.wistia.net/embed/iframe/6y2igsba97?popover=true" class="wistia-popover[height=360,playerColor=ebe9e8,width=640]"><img src="https://embed-ssl.wistia.com/deliveries/f1bd9016d491b25c2af006aefcd2023bcf92e9ce.jpg?image_play_button=true&image_play_button_color=ebe9e8e0&image_crop_resized=300x168" alt="" /></a>
+<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script></center>
     			
-    			<div class="col-sm-10 col-sm-offset-1 modal-video"><!-- Video -->
-				 	<div class="row"> 
-					 	<center>
-					 		<iframe onClick="ga('send', 'event', 'video', 'play', 'main video');" src="//fast.wistia.net/embed/iframe/5tl43fy1m9?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
-					 		<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
-					 	</center>
-					</div>
-				</div> <!-- /Video -->
-    		</div>
-        <h4 class="optin-h4">Subscribe below and I'll dare you to be great.</h4><!-- optin -->
-	  <div class="row">
-	      <div class="top-optin col-sm-offset-3">
 	      
-	      <!-- Mailchimp -->
-			<form class="form-inline" id="before_header" action="//howdareyou.us8.list-manage.com/subscribe/post?u=4c05f20503bc3a9d84d1a63c9&amp;id=488afa7633" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
-			<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">I Dare</button>
-			
-			</form> <!-- /Mailchimp -->
+					      <!-- Mailchimp -->
+							<center><form class="form-inline" id="before_header" action="//howdareyou.us8.list-manage.com/subscribe/post?u=4c05f20503bc3a9d84d1a63c9&amp;id=488afa7633" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+								<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
+							<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">Subscribe</button>
+							
+							</form></center> <!-- /Mailchimp -->
 	      </div><!-- /optin -->
 		  <br><br>
           </div>
         </div>
       </div>
     </div>
+<!-- /pop-up modal -->
 
 </body>
 </html>
