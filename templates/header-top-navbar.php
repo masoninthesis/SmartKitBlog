@@ -11,7 +11,7 @@
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
-    <button type="button" class="pull-right btn btn-default nav-btn">Back on Kickstarter</button>
+    <button href="#" type="button" class="pull-right btn btn-default nav-btn" data-toggle="modal" data-target="#myModal">Back on Kickstarter</button>
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
