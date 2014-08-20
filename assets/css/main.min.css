@@ -5788,7 +5788,7 @@ button.close {
   color: #bc3abc !important;
 }
 body {
-  font-family: "Avenir LT", Helvetica, Arial, sans-serif;
+  font-family: "Avenir LT", helvetica, Arial, sans-serif;
 }
 .btn {
   color: #858585;
@@ -5806,7 +5806,7 @@ h2 {
   color: #6d6d6d;
 }
 h3 {
-  font-family: 'Avenir LT', helvetica, serif;
+  font-family: 'Avenir Black', helvetica, serif;
   font-weight: 200;
   font-size: 30px;
   letter-spacing: 3px;
@@ -6312,6 +6312,7 @@ a:hover {
     margin: 0;
     margin-bottom: 28px;
     color: #fff;
+    font-family: 'Avenir LT', helvetica, serif;
   }
   #above-the-fold h4 {
     color: #fff;
