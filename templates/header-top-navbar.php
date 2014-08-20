@@ -24,7 +24,7 @@
   <section id="above-the-fold">
   	<video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
      		<source src="http://masonlawlor.com//smartkit/assets/video/timelapse.mp4" type="video/mp4">
-     		<source src="http://masonlawlor.com//smartkit/assets/video/timelapse.ogv" type="video/ogv">
+     		<source src="http://masonlawlor.com//smartkit/assets/video/timelapse.ogv" type="video/ogg">
           Sorry, your browser does not support HTML5 video.
 	</video>
     <div class="wrap container" role="document">

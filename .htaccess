@@ -12,3 +12,17 @@ AddType font/woff .woff
 </FilesMatch>
 
 # END REQUIRED FOR WEBFONTS
+
+# BEGIN REQUIRED FOR BACKGROUND VIDEO
+
+AddType video/ogg .ogv .ogg
+AddType video/mp4 .mp4
+AddType video/webm .webm
+
+<FilesMatch "\.(ogv|mp4|webm)$">
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "*"
+    </IfModule>
+</FilesMatch>
+
+# END REQUIRED FOR BACKGROUND VIDEO
