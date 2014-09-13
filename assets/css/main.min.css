@@ -5790,6 +5790,9 @@ button.close {
 body {
   font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, Tahoma, Verdana, sans-serif;
 }
+strong {
+  font-family: 'Proxima Nova Semibold', 'Helvetica Neue', Helvetica, Arial, Tahoma, Verdana, sans-serif;
+}
 .btn {
   color: #858585;
 }
@@ -5835,6 +5838,10 @@ h4 {
   src: url('http://masonlawlor.com//blogdotsmartkdotit/wp-content/themes/SmartKitBlog/assets/fonts/ProximaNova-Regular.otf') format('opentype');
 }
 @font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url('http://masonlawlor.com//blogdotsmartkdotit/wp-content/themes/SmartKitBlog/assets/fonts/ProximaNova-Semibold.otf') format('opentype');
+}
+@font-face {
   font-family: "Avenir Black";
   src: url('http://masonlawlor.com//smartkdotit/wp-content/themes/SmartKit/assets/fonts/AvenirLTStd-Black.otf') format('opentype');
 }
@@ -5867,15 +5874,14 @@ a:hover {
 }
 .hero-btn {
   padding: 18px 44px 12px 44px;
-  border-color: #DB4252;
+  border-color: #fff;
   margin: 30px auto 40px auto;
   display: block;
-  background-color: #DB4252;
+  background-color: #fff;
   background-size: 2px 100%;
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
-  color: #fff;
-  font-family: 'Avenir LT', helvetica, serif;
+  color: #DB4252;
 }
 @media (max-width: 992px) {
   .hero-btn {
@@ -5883,9 +5889,9 @@ a:hover {
   }
 }
 .hero-btn:hover {
-  border-color: #E43760;
-  background-color: #E43760;
-  color: #fff;
+  border-color: #f6f6f6;
+  background-color: #f6f6f6;
+  color: #E43760;
 }
 .nav-btn {
   padding: 18px 24px 12px 24px;
@@ -5902,7 +5908,6 @@ a:hover {
   background-size: 2px 100%;
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
-  font-family: 'Avenir LT', helvetica, serif;
 }
 .nav-btn:hover {
   border-top: 2px solid #dc2d8d;
@@ -5933,7 +5938,6 @@ a:hover {
   background-size: 2px 100%;
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
-  font-family: 'Avenir LT', helvetica, serif;
 }
 .security-btn:hover {
   border-top: 2px solid #dc2d8d;
@@ -5965,7 +5969,6 @@ a:hover {
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
   background-color: #F7F7F7;
-  font-family: 'Avenir LT', helvetica, serif;
 }
 .energy-btn:hover {
   border-top: 2px solid #25a5ca;
@@ -5996,7 +5999,6 @@ a:hover {
   background-size: 2px 100%;
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
-  font-family: 'Avenir LT', helvetica, serif;
 }
 .auto-btn:hover {
   border-top: 2px solid #e733a5;
@@ -6027,7 +6029,6 @@ a:hover {
   background-size: 2px 100%;
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
-  font-family: 'Avenir LT', helvetica, serif;
 }
 .cta-btn:hover {
   border-top: 2px solid #dc2d8d;
@@ -6042,6 +6043,28 @@ a:hover {
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
   background-color: #fff;
+}
+.modal-btn {
+  padding: 18px 44px 12px 44px;
+  border-color: #DB4252;
+  margin: 30px auto 40px auto;
+  display: block;
+  background-color: #DB4252;
+  background-size: 2px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'Avenir LT', helvetica, serif;
+}
+@media (max-width: 992px) {
+  .modal-btn {
+    margin: 20 auto 40px auto;
+  }
+}
+.modal-btn:hover {
+  border-color: #E43760;
+  background-color: #E43760;
+  color: #fff;
 }
 .search-submit {
   background-color: #DB4252;
@@ -6252,6 +6275,7 @@ a:hover {
 }
 .navbar {
   height: 100px;
+  margin-bottom: 0px;
 }
 @media (max-width: 992px) {
   .navbar-brand img {
@@ -6285,6 +6309,14 @@ a:hover {
   text-align: center;
   background: #fff;
   padding-top: 40px;
+  background-color: #e73366;
+  background-image: -webkit-radial-gradient(50% top, rgba(208, 81, 64, 0.6) 0%, rgba(208, 81, 64, 0) 75%), -webkit-radial-gradient(right top, #e58138 0%, rgba(208, 81, 64, 0) 57%);
+  background-image: radial-gradient(at 50% top, rgba(208, 81, 64, 0.6) 0%, rgba(208, 81, 64, 0) 75%), radial-gradient(at right top, #e58138 0%, rgba(208, 81, 64, 0) 57%);
+  background-repeat: no-repeat;
+  background-size: 100% 1000px;
+  color: #c7c0de;
+  padding: 25px;
+  color: #fff;
 }
 #above-the-fold h1 {
   margin: 0 0 24px;
