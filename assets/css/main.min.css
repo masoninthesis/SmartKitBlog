@@ -5788,25 +5788,25 @@ button.close {
   color: #bc3abc !important;
 }
 body {
-  font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, Tahoma, Verdana, sans-serif;
+  font-family: "Avenir LT", helvetica, Arial, sans-serif;
 }
 .btn {
   color: #858585;
 }
 h1 {
-  font-family: 'Avenir Black', 'Helvetica Neue', Helvetica, Arial, Tahoma, Verdana, sans-serif;
+  font-family: 'Avenir Black', helvetica, serif;
   font-weight: 600;
   color: #545454;
   font-size: 72px;
 }
 h2 {
-  font-family: 'Avenir Black', 'Helvetica Neue', Helvetica, Arial, Tahoma, Verdana, sans-serif;
+  font-family: 'Avenir Black', helvetica, serif;
   font-weight: 400;
   font-size: 48px;
   color: #6d6d6d;
 }
 h3 {
-  font-family: 'Avenir Black', 'Helvetica Neue', Helvetica, Arial, Tahoma, Verdana, sans-serif;
+  font-family: 'Avenir Black', helvetica, serif;
   font-weight: 200;
   font-size: 30px;
   color: #626262;
@@ -5819,7 +5819,7 @@ h4 {
   font-size: 18px;
 }
 .smart-home {
-  font-family: 'Avenir Black', 'Helvetica Neue', Helvetica, Arial, Tahoma, Verdana, sans-serif;
+  font-family: 'Avenir Black', helvetica, serif;
 }
 .price-security {
   color: #db713a;
@@ -5831,8 +5831,8 @@ h4 {
   color: #bc3abc;
 }
 @font-face {
-  font-family: 'Proxima Nova';
-  src: url('http://masonlawlor.com//blogdotsmartkdotit/wp-content/themes/SmartKitBlog/assets/fonts/ProximaNova-Regular.otf') format('opentype');
+  font-family: "Avenir LT";
+  src: url('http://masonlawlor.com//smartkdotit/wp-content/themes/SmartKit/assets/fonts/AvenirLTStd-Light.otf') format('opentype');
 }
 @font-face {
   font-family: "Avenir Black";
