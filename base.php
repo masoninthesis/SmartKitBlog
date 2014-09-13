@@ -73,7 +73,7 @@
 					      <!-- Mailchimp -->
 							<center><form class="form-inline" id="before_header" action="//smartk.us8.list-manage.com/subscribe/post?u=99a776394eb3b3549e7c5e53c&amp;id=6a60137cbc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 								<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
-							<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="modal-btn btn btn-lg" type="submit" value="Submit" tabindex="501">Subscribe</button>
+							<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="hero-btn btn btn-lg" type="submit" value="Submit" tabindex="501">Subscribe</button>
 							
 							</form></center> <!-- /Mailchimp -->
 	      </div><!-- /optin -->

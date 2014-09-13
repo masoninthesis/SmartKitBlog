@@ -11,7 +11,7 @@
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
-    <button href="#" type="button" class="pull-right btn btn-default nav-btn" data-toggle="modal" data-target="#myModal">Back on Indiegogo</button>
+    <button href="#" type="button" class="pull-right btn btn-default nav-btn" data-toggle="modal" data-target="#myModal">Back on Kickstarter</button>
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
@@ -22,6 +22,11 @@
 </header>
 
   <section id="above-the-fold">
+  	<video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+     		<source src="http://masonlawlor.com//smartkit/assets/video/timelapse.mp4" type="video/mp4">
+     		<source src="http://masonlawlor.com//smartkit/assets/video/timelapse.ogv" type="video/ogg">
+          Sorry, your browser does not support HTML5 video.
+	</video>
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-12">
@@ -32,7 +37,7 @@
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
         </div>
           <div class="col-sm-12 jack-cols">
-		  	<button href="#" type="button" type="button" class="btn btn-default hero-btn" data-toggle="modal" data-target="#myModal">Back on Indiegogo</button>
+			  			  <button href="#" type="button" type="button" class="btn btn-default hero-btn" data-toggle="modal" data-target="#myModal">Back on Kickstarter</button>
               <!--<a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/security-hero.png" alt="the-athlete" />
               <h4>Security</h4></a>
           </div>
