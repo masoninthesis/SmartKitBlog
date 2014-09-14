@@ -5872,6 +5872,10 @@ a:hover {
 .home-nav {
   color: #db713a;
 }
+.btn {
+  line-height: 24px;
+  padding-top: 8px;
+}
 .hero-btn {
   padding: 18px 44px 12px 44px;
   border-color: #fff;
