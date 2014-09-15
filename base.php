@@ -67,7 +67,7 @@
         <div class="modal-content">
         	<center><h3>We haven't launched yet!<br>Be the first to know when we launch.</h3></center>
           	<div class="modal-body">
-          	<center><iframe src="//fast.wistia.net/embed/iframe/6y2igsba97?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script></center>
+          	<center><iframe src="//fast.wistia.net/embed/iframe/d011xn7ttu?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script></center>
     			
 	      
 					      <!-- Mailchimp -->
